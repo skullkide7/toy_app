@@ -75,5 +75,5 @@ Rails.application.configure do
   # config.action_cable.disable_request_forgery_protection = true
 
   #Allow connections to local server.
-  Config.hosts.clear
+  config.hosts.clear
 end
